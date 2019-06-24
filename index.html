@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<title>INSTAGRAM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+
+.bg-img{
+ background-image: url("SAVE_20190617_204209.jpeg");
+ min-height: 380px;
+ padding: 15px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ position: relative;
+}
+
+.bg-img1{
+ background-image: url("insta1.jpg");
+ min-height: 380px;
+ padding: 15px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ position: relative;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color: black;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+}
+}
+
+ 
+</style>
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+
+<header class="w3-display-container w3-center">
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
+  <div class="mySlides w3-animate-opacity">
+    <img src="insta3.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Take photos with our app</h1>
+        <hr class="w3-opacity">
+        <p>Hit likes with double tap</p>
+   
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img src="insta6.jpg" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1>Features</h1>
+        <hr class="w3-opacity">
+        <p>Click fast photos and short videos </p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img  src="6a00d8358081ff69e201b7c8098ead970b-800wi.jpg" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Smart Design</h1>
+        <hr class="w3-opacity">
+        <p>Customize photos as you go</p>
+        <p>Easy editing</p>
+      </div>
+    </div>
+  </div>
+  <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+  <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>The App</b></h1>
+      <h2 class="w3-xxxlarge w3-text-green"><b>History</b></h2>
+     
+
+
+<h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+Instagram was started in San Francisco by <b>Kevin Systrom</b> and <b>Mike Krieger </b>,who initially tried creating a platform similar to Foursquare but then turned their attention exclusively to phto sharing.</h4>
+<h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+The initial release of instagram was on October 6,2010 exclusively on IOS.</t4>
+<h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+A version for Android devices was released a year and half later, in April 2012, followed by a feature-limited website interface in November 2012, and apps for Windows 10 Mobile and Windows 10 in April 2016 and October 2016 respectively.</h4> 
+
+      
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="images.png" class="w3-image w3-right w3-hide-small" width="500" height="500">
+     
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">DOWNLOAD</h2>
+      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Fake Download</button>
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img src="insta21.jpg" alt="App" width="440" height="471">
+    </div>
+    <div class="w3-col l8 m6">
+      <h2 class="w3-jumbo"><b>Marketing</b></h2>
+      <h6 class="w3-xxxlarge w3-text-red">It's now a global platform that allows brands to humanize their content</h6>
+      <p>Instagram can also help you grow brand awareness and introduce products. 70% of instagram users have spent time looking up a brand on the platform.Instagram allows you to promote your brand and product in a friendly, authentic way without hard selling to your customers.
+         Instagram users aren't just active, they engaged. This photo and video sharing app has quickly turned into a top social media site. More than half of the platform's active users visit the site daily, and 35% say they check it multiple times a day.
+         It's clear that Instagram isn't just for personal use anymore. It's now a global platform taht allows brands to humanize their content, recruit new talent, showcase products, and inspire their audience.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+  <h1 class="w3-jumbo"><b>Icons</b></h1>
+  
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+     <img src="insta16.png" alt="image" style=width="70px" height="70px">
+      <p>Home</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="icons8-search-50.png" alt="image" style=width="70px" height="70px">
+      <p>Search</p>
+    </div>
+    <div class="w3-col s3">
+    <img src="icons8-camera-32.png" alt="image" style=width="70px" height="70px">
+      <p>Camera</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="insta19.png" alt="image" style=width="70px" height="70px">
+      <p>Like</p>
+    </div>
+  </div>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <img src="icons8-topic-50.png" alt="image" style=width="70px" height="70px">
+      <p>Comment</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="insta13.png" alt="image" style=width="70px" height="70px">
+      <p>Share</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="insta9.png" alt="image" style=width="70px" height="70px">
+      <p>Save</p>
+    </div>
+    <div class="w3-col s3">
+     <img src="insta20.png" alt="image" style=width="70px" height="70px">
+      <p>IGTV</p>
+    </div>
+  </div>
+  
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+     <img src="insta12.jpg" alt="image" style=width="70px" height="70px">
+      <p>Live Shoot</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="insta14.png" alt="image" style=width="70px" height="70px">
+      <p>Boomerang</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="insta15.png" alt="image" style=width="70px" height="70px">
+      <p>Effects</p>
+    </div>
+    <div class="w3-col s3">
+     <img src="insta10.png" alt="image" style=width="70px" height="70px">
+      <p>Feed</p>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-padding-64 w3-center w3-white">
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half w3-section">
+      <ul class="w3-ul w3-card w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Popularity</li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+With 1 billion monthly active users as of June,2018,<em>INSTAGRAM</em> is undoubtedly one of the most popular social networking apps in the world.</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+Launched in 2010,<u>Instagram</u> has grown rapidly, trampling competitors like <b>Snapchat</b> and <b>Twitter</b> along its way by adopting new features and evolving fast.</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+Today the facebook-owned company is the go-to app for people who prefer communicating through visual means primarily on their phones.</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+People are highly responsive to imagery and so as <em>Instagram</em> is an image first app,the visual information over digesting written words or audible cues is why visual marketing has been taking off in recent years.</h4></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-opacity"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>
+Instagram is a user-friendly, the simple interface is easy for new users to understand intuitively,no matter their age.It is a free,online photo-sharing application </h4></h2>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="w3-half w3-section">
+      <ul class="w3-ul w3-card w3-hover-shadow">
+        <li class="w3-pink w3-xlarge w3-padding-32">Features</li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>You can view Story content as many times as you want within 24-hour period.
+Stories appear as little circles in the top of your followers'feeds.</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>IGTV gives marketers the ability to share longer video content with the advantage of your users being notified when you share a new video is shared</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>Video recording up to 15 seconds,Image viewing up to 10 seconds,Unlimited story additions,Direct messaging within Stories</h4></li>
+        <li class="w3-padding-16"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>Followers get a push notification telling them you're going live,Followers can comment on or like your Live Video stream in real time.Users also have the option of making their profile private so that only their followers can view their posts.</h4></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-opacity"><h4><i class="fa fa-instagram" style="font-size:28px;color:red"></i>Users can add a caption to their posts and use hashtags,location-based geotags to index these posts and make them searchable.</h4></h2>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  <br>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-4">
+<form action="/action_page.php" style="background-color:white">  
+
+<h1 align="center" style="color:red";><em>Instagram</em></h1>
+
+    <h4 align="center" style="color:blue";><i class="fa fa-facebook-official w3-hover-opacity"></i>continue with facebook</h4>
+  
+    <h3 align="center" style="color:black";><b>OR</b></h3>
+    
+    <input type="text" placeholder="Phone number, username, or email" name="uname" required>
+
+    <input type="password" placeholder="Password" name="psw" required>
+        
+    <button type="submit">Log In</button>
+    <label>
+<p style="color:black";>Remember me  
+      <input type="checkbox" checked="checked" name="remember"></p> 
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#" style="color:blue";>password?</a></span>
+  </div>
+</div>
+
+<div class="col-lg-4"></div>
+<div class="col-lg-4"></div>
+</form>
+</div>
+
+</div>
+ 
+<div class="container-fluid bg-img">
+<div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <img src="IMG-20190624-WA0000.jpg" alt="image" width="300px" height="500px">  
+   </div>
+   <div class="w3-col s3">
+      <img src="Screenshot_2019-06-24-11-34-57-024_com.instagram.android.png" alt="image" width="300px" height="500px">
+ </div>
+  <div class="w3-col s3">
+      <img src="IMG-20190624-WA0024.jpg" alt="image" width="300px" height="500px">
+ </div>
+  <div class="w3-col s3">
+      <img src="IMG_20190624_183342_953.jpg" alt="image" width="300px" height="500px">
+ </div>
+</div>
+</div>
+  
+
+ 
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+<p class="w3-medium">Created by : <br>Sanjana k<br>Usha G R</a></p>
+</footer>
+
+</body>
+</html>
